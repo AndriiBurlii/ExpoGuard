@@ -1,0 +1,18 @@
+{
+  "project": "ExpoGuard",
+  "base": "c1cdf3f64ccd0816cc0a7cba8e4c42be5241e0a3",
+  "stages": [
+    "pinout and contracts",
+    "portable MPU driver",
+    "board and nonblocking scheduler",
+    "calibration and filtering",
+    "mode event rules",
+    "UART commands",
+    "boundary and failure tests",
+    "coverage and CI",
+    "real captures and measurements",
+    "report"
+  ],
+  "state": "implementation in progress",
+  "screenshots": "real execution, no cursor, no macOS window buttons"
+}

@@ -1,0 +1,70 @@
+{
+  "student": "Бурлій Андрій Євгенійович",
+  "project": "ExpoGuard",
+  "labs": [
+    2
+  ],
+  "state": "planned, not applied",
+  "commits": [
+    {
+      "stage": 1,
+      "lab": 2,
+      "author_date": "2026-10-07T16:56:02+03:00",
+      "committer_date": "2026-10-07T16:56:02+03:00"
+    },
+    {
+      "stage": 2,
+      "lab": 2,
+      "author_date": "2026-10-09T00:46:11+03:00",
+      "committer_date": "2026-10-09T00:46:11+03:00"
+    },
+    {
+      "stage": 3,
+      "lab": 2,
+      "author_date": "2026-10-09T16:56:15+03:00",
+      "committer_date": "2026-10-09T16:56:15+03:00"
+    },
+    {
+      "stage": 4,
+      "lab": 2,
+      "author_date": "2026-10-09T19:34:23+03:00",
+      "committer_date": "2026-10-09T19:34:23+03:00"
+    },
+    {
+      "stage": 5,
+      "lab": 2,
+      "author_date": "2026-10-11T07:39:35+03:00",
+      "committer_date": "2026-10-11T07:39:35+03:00"
+    },
+    {
+      "stage": 6,
+      "lab": 2,
+      "author_date": "2026-10-12T23:50:04+03:00",
+      "committer_date": "2026-10-12T23:50:04+03:00"
+    },
+    {
+      "stage": 7,
+      "lab": 2,
+      "author_date": "2026-10-13T17:46:07+03:00",
+      "committer_date": "2026-10-13T17:46:07+03:00"
+    },
+    {
+      "stage": 8,
+      "lab": 2,
+      "author_date": "2026-10-14T03:44:54+03:00",
+      "committer_date": "2026-10-14T03:44:54+03:00"
+    },
+    {
+      "stage": 9,
+      "lab": 2,
+      "author_date": "2026-10-14T10:39:09+03:00",
+      "committer_date": "2026-10-14T10:39:09+03:00"
+    },
+    {
+      "stage": 10,
+      "lab": 2,
+      "author_date": "2026-10-14T15:26:23+03:00",
+      "committer_date": "2026-10-14T15:26:23+03:00"
+    }
+  ]
+}
