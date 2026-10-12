@@ -1,0 +1,7 @@
+#ifndef PROJECT_PROFILE_H
+#define PROJECT_PROFILE_H
+#define PROJECT_KIND EXPOGUARD
+#define PROJECT_NAME "ExpoGuard"
+#define IMU_PERIOD_MS 20u
+#define ADC_PERIOD_MS 100u
+#endif
