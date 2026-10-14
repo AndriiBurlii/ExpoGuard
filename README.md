@@ -1,32 +1,23 @@
 # ExpoGuard
 
-Контроль виставкового макета. Власник: Бурлій Андрій Євгенійович, група ІО-32.
+Інтегрований прототип спостереження: MPU6050, PIR, аналоговий LDR. Режими та трактування подій описано в [PRD](docs/PRD.md); жоден сигнал не встановлює особу чи намір людини.
 
-Середовище: Ubuntu 24.04, Docker, STM32 HAL, Wokwi. Платформа: Nucleo-C031C6.
+[Звіт ЛР2](docs/lab2/report.pdf) · [Pinout](docs/pinout.md) · [Архітектура](docs/architecture.md) · [Власні захвати](docs/captures/README.md)
 
-ЛР1 готує тему, план реалізації, build/Docker/Git, UART-логер і LED. ЛР2 додасть PIR через GPIO, MPU6050 через I²C та фоторезистор через ADC. PIR реєструватиме звичайний рух відвідувача, MPU6050 рух або удар макета, LDR світло експозиції. Світло не доводить втручання; один PIR не рахує людей.
-
-## Збірка та демонстрація
+Середовище: Ubuntu 24.04, Docker, STM32 HAL, Wokwi. Відкрити корінь проєкту у VS Code, зібрати та виконати Wokwi: Start Simulator. Схема diagram.json; firmware.hex/elf у firmware/build. Базовий CubeMX .ioc описує Core; додаткові ADC/GPIO налаштовані в Platform/board.c.
 
 ```sh
-make clean
-make build IMAGE=expoguard-lr1-build:local
+make build
+make test
+make test-linux
+make coverage
+make sanitize
 ```
 
-Артефакти: `firmware/build/firmware.elf`, `.hex`, `.bin`. Відкрийте цю папку в VS Code, натисніть F1, виберіть `Wokwi: Start Simulator`. За наявної ліцензії очікуються `STM32C031C6 ready`, послідовні `tick` і зміна LED PA5 раз на 1000 мс, повний цикл близько 2 с. Trial не потрібен. Сама компіляція не підтверджує ці результати.
+UART 115200 8N1, команди `selftest`, `status`, `calibrate`, `mode`, `ack`, `imuaddr 0x68`, `imuaddr 0x69`. Після початкового фону очікуються IMU valid, Z 1000 mg, ADC valid, PIR 0. Калібрування робити у спокої. Відмова адреси не зупиняє інші сенсори.
 
-У коді перевірено USART2 PA2/PA3, 115200 8N1, `printf` через `__io_putchar` та `HAL_UART_Transmit`. Прошивку, `.ioc`, Dockerfile і схему перенесено без змін із SP-Boilerplate. I²C1 вже ініціалізується на PB8/PB9, датчиків у схемі немає.
+На власних записах 15.10.2026: SCL 100 кГц, період IMU 19.994 мс, період ADC 100.000 мс. Coverage App+Devices 96.96% рядків, 80.0% гілок; Board/HAL не входять. [CI інтеграційного коміту](https://github.com/AndriiBurlii/ExpoGuard/actions/runs/38726215112).
 
-Документація шаблона збережена в [docs/template-README.md](docs/template-README.md). Походження та ліцензії дивіться там і в `LICENSE`, `firmware/Drivers`.
+VCD/SR/PVS і SHA256 зберігаються у docs/captures; окремий `.origin.json` фіксує абсолютний offset кожного вікна. Повні VCD стиснені без втрат. Скриншоти у docs/lab2/figures походять із власного виконання Wokwi/PulseView. Для UART є також текстовий декод wire-uart.txt. Розрахунковий бюджет живлення та межі моделі відокремлено від вимірювань.
 
-## Статус
-
-03.10.2026 виконано дві чисті Docker-збірки на Mac ARM64; SHA256 ELF/HEX/BIN збіглися. 04.10.2026 отримано скриншоти збирання ExpoGuard в Ubuntu та запуску у Wokwi: `STM32C031C6 ready`, `tick 0`..`tick 7` і різні стани LED. [Логи та докази](docs/validation/README.md).
-
-[PDF-звіт](docs/SP_Lab01_Burlii_IO-32.pdf) додано в репозиторій; п'ять скриншотів містяться всередині PDF. Оригінал відео, копія без звуку та розшифровка збережені в каталозі Reports навчальної роботи. Драйвери датчиків і режими ExpoGuard заплановано на ЛР2.
-
-Підготовчі коміти фактично створено 03.10.2026; їхні дати задані за погодженим графіком і не є журналом виконання в попередні дні. Коміт зі звітом і доказами створено 04.10.2026.
-
-[PRD](docs/PRD.md) · [Словник](CONTEXT.md) · [Компоненти](docs/hardware-components.md) · [План ЛР1/ЛР2 і здачі](docs/lab-plan.md) · [Тести](docs/test-plan.md) · [Передача в VM](docs/vm-transfer.md)
-
-Репозиторій: [AndriiBurlii/ExpoGuard](https://github.com/AndriiBurlii/ExpoGuard). `main` містить початковий коміт із порожнім деревом; підготовка, звіт і докази належать `feature/lab-1`. Для здачі відкрийте PR з `feature/lab-1` у `main`: [інструкція PR](docs/pull-request.md). PR створює користувач.
+ЛР2 передається гілкою feature/lab-2 і тегом lab2; pull request у main створюється окремо.
