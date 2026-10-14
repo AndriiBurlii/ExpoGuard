@@ -1,0 +1,72 @@
+4.595475 ms project=ExpoGuard sensors=MPU6050,PIR,LDR units=mg,mdps,adc commands=status,selftest,calibrate,mode,ack
+21.093150 ms seq=1 time_ms=4 mode=expo src=IMU event=whoami_0x68 level=INFO value=104
+505.296550 ms seq=2 time_ms=502 mode=expo src=ADC event=dark level=INFO value=3413
+1007.180350 ms time_ms=1002 mode=expo imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=0,0 cal=0 alarm=0 tx_overflow_events=0
+2007.181525 ms time_ms=2002 mode=expo imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=0,0 cal=0 alarm=0 tx_overflow_events=0
+3007.186425 ms time_ms=3002 mode=expo imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=0,0 cal=0 alarm=0 tx_overflow_events=0
+4007.138100 ms time_ms=4002 mode=expo imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=0,0 cal=0 alarm=0 tx_overflow_events=0
+5007.143775 ms time_ms=5002 mode=expo imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=0,0 cal=0 alarm=0 tx_overflow_events=0
+6007.099175 ms time_ms=6002 mode=expo imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=0,0 cal=0 alarm=0 tx_overflow_events=0
+7007.103350 ms time_ms=7002 mode=expo imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=0,0 cal=0 alarm=0 tx_overflow_events=0
+8007.064025 ms time_ms=8002 mode=expo imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=0,0 cal=0 alarm=0 tx_overflow_events=0
+9007.061425 ms time_ms=9002 mode=expo imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=0,0 cal=0 alarm=0 tx_overflow_events=0
+10007.028850 ms time_ms=10002 mode=expo imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=0,0 cal=0 alarm=0 tx_overflow_events=0
+11007.030775 ms time_ms=11002 mode=expo imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=0,0 cal=0 alarm=0 tx_overflow_events=0
+12006.991675 ms time_ms=12002 mode=expo imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=0,0 cal=0 alarm=0 tx_overflow_events=0
+13006.987600 ms time_ms=13002 mode=expo imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=0,0 cal=0 alarm=0 tx_overflow_events=0
+14006.949525 ms time_ms=14002 mode=expo imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=0,0 cal=0 alarm=0 tx_overflow_events=0
+15006.944675 ms time_ms=15002 mode=expo imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=0,0 cal=0 alarm=0 tx_overflow_events=0
+16006.902350 ms time_ms=16002 mode=expo imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=0,0 cal=0 alarm=0 tx_overflow_events=0
+16034.909975 ms seq=3 time_ms=16024 mode=expo src=IMU event=selftest_pass level=INFO value=0
+17006.889275 ms time_ms=17002 mode=expo imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=0,0 cal=0 alarm=0 tx_overflow_events=0
+17034.730950 ms seq=4 time_ms=17024 mode=expo src=CAL event=calibrating level=INFO value=0
+18006.833675 ms time_ms=18002 mode=expo imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=0,0 cal=1 alarm=0 tx_overflow_events=0
+19006.812350 ms time_ms=19002 mode=expo imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=0,0 cal=1 alarm=0 tx_overflow_events=0
+19034.310425 ms seq=5 time_ms=19022 mode=expo src=CAL event=calibration_ready level=INFO value=0
+19105.067300 ms seq=6 time_ms=19102 mode=expo src=ADC event=dark level=INFO value=3413
+20006.946025 ms time_ms=20002 mode=expo imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=1,0 cal=0 alarm=0 tx_overflow_events=0
+20034.689950 ms seq=7 time_ms=20024 mode=expo src=CMD event=status level=INFO value=0
+21006.912925 ms time_ms=21002 mode=expo imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=1,0 cal=0 alarm=0 tx_overflow_events=0
+21034.743450 ms seq=8 time_ms=21025 mode=move src=CMD event=mode_expo_to_move level=INFO value=0
+22006.915600 ms time_ms=22002 mode=move imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=1,0 cal=0 alarm=0 tx_overflow_events=0
+22034.706875 ms seq=9 time_ms=22024 mode=expo src=CMD event=mode_move_to_expo level=INFO value=1
+23006.899275 ms time_ms=23002 mode=expo imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=1,0 cal=0 alarm=0 tx_overflow_events=0
+23034.788100 ms seq=10 time_ms=23024 mode=expo src=IMU event=sensor_error level=ERROR value=0
+23047.201825 ms seq=11 time_ms=23024 mode=expo src=CMD event=address_changed level=INFO value=105
+24006.570675 ms time_ms=24002 mode=expo imu=invalid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=0,0 cal=0 alarm=0 tx_overflow_events=0
+25006.531600 ms time_ms=25002 mode=expo imu=invalid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=0,0 cal=0 alarm=0 tx_overflow_events=0
+25034.585300 ms seq=12 time_ms=25024 mode=expo src=CMD event=status level=INFO value=0
+26006.523775 ms time_ms=26002 mode=expo imu=invalid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=0,0 cal=0 alarm=0 tx_overflow_events=0
+26034.756875 ms seq=13 time_ms=26025 mode=expo src=CMD event=address_changed level=INFO value=104
+26047.796525 ms seq=14 time_ms=26025 mode=expo src=IMU event=sensor_recovered level=INFO value=0
+26060.682325 ms seq=15 time_ms=26025 mode=expo src=IMU event=whoami_0x68 level=INFO value=104
+27006.501175 ms time_ms=27002 mode=expo imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=0,0 cal=0 alarm=0 tx_overflow_events=0
+27034.313300 ms seq=16 time_ms=27024 mode=expo src=CAL event=calibrating level=INFO value=0
+28006.472100 ms time_ms=28002 mode=expo imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=0,0 cal=1 alarm=0 tx_overflow_events=0
+29006.459275 ms time_ms=29002 mode=expo imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=0,0 cal=1 alarm=0 tx_overflow_events=0
+29033.955425 ms seq=17 time_ms=29011 mode=expo src=CAL event=calibration_ready level=INFO value=0
+29104.598975 ms seq=18 time_ms=29102 mode=expo src=ADC event=dark level=INFO value=3413
+30006.449175 ms time_ms=30002 mode=expo imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=1,0 cal=0 alarm=0 tx_overflow_events=0
+30034.335625 ms seq=19 time_ms=30025 mode=guard src=CMD event=mode_expo_to_guard level=INFO value=0
+31006.420600 ms time_ms=31002 mode=guard imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=1,0 cal=0 alarm=0 tx_overflow_events=0
+31034.320225 ms seq=20 time_ms=31025 mode=guard src=CMD event=status level=INFO value=0
+32006.392775 ms time_ms=32002 mode=guard imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=1,0 cal=0 alarm=0 tx_overflow_events=0
+33006.402675 ms time_ms=33002 mode=guard imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=1,0 cal=0 alarm=0 tx_overflow_events=0
+34006.383600 ms time_ms=34002 mode=guard imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=1,0 cal=0 alarm=0 tx_overflow_events=0
+35006.351775 ms time_ms=35002 mode=guard imu=valid ax_mg=0 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=3413 light_valid=1 pir=0 baseline=1,0 cal=0 alarm=0 tx_overflow_events=0
+35835.411000 ms seq=21 time_ms=35833 mode=guard src=GPIO event=visitor_motion level=INFO value=1
+35874.702425 ms seq=22 time_ms=35872 mode=guard src=IMU event=model_motion level=ALARM value=0
+36004.500725 ms seq=23 time_ms=36002 mode=guard src=ADC event=light_restored level=INFO value=2060
+36017.698850 ms time_ms=36002 mode=guard imu=valid ax_mg=1999 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=32 light_valid=1 pir=1 baseline=1,0 cal=0 alarm=1 tx_overflow_events=0
+37006.319600 ms time_ms=37002 mode=guard imu=valid ax_mg=1999 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=32 light_valid=1 pir=1 baseline=1,0 cal=0 alarm=1 tx_overflow_events=0
+38006.283275 ms time_ms=38002 mode=guard imu=valid ax_mg=1999 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=32 light_valid=1 pir=1 baseline=1,0 cal=0 alarm=1 tx_overflow_events=0
+39006.281425 ms time_ms=39002 mode=guard imu=valid ax_mg=1999 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=32 light_valid=1 pir=1 baseline=1,0 cal=0 alarm=1 tx_overflow_events=0
+40006.244850 ms time_ms=40002 mode=guard imu=valid ax_mg=1999 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=32 light_valid=1 pir=1 baseline=1,0 cal=0 alarm=1 tx_overflow_events=0
+41006.239275 ms time_ms=41002 mode=guard imu=valid ax_mg=1999 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=32 light_valid=1 pir=0 baseline=1,0 cal=0 alarm=1 tx_overflow_events=0
+42006.196425 ms time_ms=42002 mode=guard imu=valid ax_mg=1999 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=32 light_valid=1 pir=0 baseline=1,0 cal=0 alarm=1 tx_overflow_events=0
+43006.185100 ms time_ms=43002 mode=guard imu=valid ax_mg=1999 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=32 light_valid=1 pir=0 baseline=1,0 cal=0 alarm=1 tx_overflow_events=0
+44006.174525 ms time_ms=44002 mode=guard imu=valid ax_mg=1999 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=32 light_valid=1 pir=0 baseline=1,0 cal=0 alarm=1 tx_overflow_events=0
+45006.129425 ms time_ms=45002 mode=guard imu=valid ax_mg=1999 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=32 light_valid=1 pir=0 baseline=1,0 cal=0 alarm=1 tx_overflow_events=0
+46006.120350 ms time_ms=46002 mode=guard imu=valid ax_mg=1999 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=32 light_valid=1 pir=0 baseline=1,0 cal=0 alarm=1 tx_overflow_events=0
+47006.111025 ms time_ms=47002 mode=guard imu=valid ax_mg=1999 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=32 light_valid=1 pir=0 baseline=1,0 cal=0 alarm=1 tx_overflow_events=0
+48006.066925 ms time_ms=48002 mode=guard imu=valid ax_mg=1999 ay_mg=0 az_mg=1000 gx_mdps=0 gy_mdps=0 gz_mdps=0 light_raw=32 light_valid=1 pir=0 baseline=1,0 cal=0 alarm=1 tx_overflow_events=0
